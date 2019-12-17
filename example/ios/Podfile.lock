@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - google_places_sdk (0.0.1):
+    - Flutter
+    - GoogleMaps
+    - GooglePlaces
+  - GoogleMaps (3.6.0):
+    - GoogleMaps/Maps (= 3.6.0)
+  - GoogleMaps/Base (3.6.0)
+  - GoogleMaps/Maps (3.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.6.0):
+    - GoogleMaps/Base (= 3.6.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - google_places_sdk (from `.symlinks/plugins/google_places_sdk/ios`)
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  google_places_sdk:
+    :path: ".symlinks/plugins/google_places_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  google_places_sdk: 79d0c26a643c2fbf6caf8449a09d8c4e58ddc4d8
+  GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
+  GooglePlaces: 1b9d29cf3e164903d873600f511f42acdfe85294
+
+PODFILE CHECKSUM: 3fe0c599a79b78088a1a0280bd41e42f1334f882
+
+COCOAPODS: 1.7.5
